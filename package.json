@@ -1,0 +1,15 @@
+{
+  "name": "vk-miniapp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:api": "cd api && npm run start:dev",
+    "start:client": "cd client && npm run start",
+    "dev": "concurrently \"npm run start:api\" \"npm run start:client\""
+  },
+  "author": "Niga9L <lyaginvanya@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
